@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Juguetes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #007bff;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form label, form input, form textarea, form button {
+            margin: 5px 0;
+        }
+        form input, form textarea {
+            width: 300px;
+            padding: 10px;
+        }
+        .image-container img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Empresa de Juguetes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="productos.html" target="_blank">Productos</a></li>
+            <li><a href="quienes_somos.html" target="_blank">Quiénes Somos</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+            <li><a href="https://www.unicartagena.edu.co/" target="_blank">Universidad de Cartagena</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Este Portal es realizado con fines académicos</h2>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/200x150?text=Juguetes" alt="Juguetes">
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Juan Charrasquiel | <a href="https://www.unicartagena.edu.co/" target="_blank" style="color: #fff; text-decoration: underline;">Universidad de Cartagena</a></p>
+    </footer>
+</body>
+</html>
